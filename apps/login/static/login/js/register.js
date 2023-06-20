@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 아이디 중복 검사
     function checkIdDuplication() {
         var id = document.getElementById('id').value;
-        
+
         var jsonData = JSON.stringify({ "id": id });
 
         // AJAX

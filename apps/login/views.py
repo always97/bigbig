@@ -14,7 +14,7 @@ def index(request) :
 
 # 회원가입 화면
 def register(request) :
-    return render(request, 'login/register.html')
+    return render(request, 'login/register2.html')
     
 # id 중복 검사
 class idInspectionView(View) :

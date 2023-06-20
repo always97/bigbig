@@ -59,6 +59,11 @@ form input:not(:last-of-type) {
 
 }
 
+#check-id-btn {
+    cursor: pointer;
+    border: 1px solid #E5E9F5;
+}
+
 #category {
     width: 200px;
 
@@ -109,6 +114,7 @@ button[type="button"] {
     padding: 10px 10px 10px 10px;
     background-color: transparent;
     color: #ED4B5E;
+    cursor: pointer;
 }
 
 #terms {
